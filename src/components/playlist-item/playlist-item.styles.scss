@@ -1,0 +1,30 @@
+.playlist-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #353535;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+
+    .playlist-item-cover {
+        border: 1px solid #f1f1f1;
+        margin-right: 20px;
+    }
+
+    .playlist-item-details {
+        display: flex;
+        flex-direction: column;
+
+        .playlist-item-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .playlist-item-artist {
+            font-size: 14px;
+        }
+    }
+}
